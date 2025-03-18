@@ -25,7 +25,6 @@ The predictive model utilizes the following features:
 *Model Development*
 
 A Random Forest classifier was developed to predict the emotional response category (positive, negative, mixed) based on the selected features. The dataset was split into training (80%) and testing (20%) sets, and the model was trained to predict emotional responses (positive, negative, mixed). Performance was assessed using accuracy, precision, recall, and F1-score
-![image](https://github.com/user-attachments/assets/2ce63f70-d21c-41a7-a8ba-ca9be1341f7e)
 
 <h1>References</h1>
 <ol>
