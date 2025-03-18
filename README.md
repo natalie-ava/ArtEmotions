@@ -3,20 +3,22 @@ ArtEmotions aims to predict emotional responses to artworks by analyzing feature
 <h1>Introduction</h1> 
 Introduction goes here...
 <h1>Methods</h1> 
-Data Collection and Cleaning
+*Data Collection and Cleaning*
 The original WikiArt Emotions dataset includes annotations for emotions evoked by artworks, with each piece evaluated by at least ten annotators. Annotations encompass emotions triggered by the image alone, the title alone, and the combination of both, along with ratings on a scale from -3 (dislike) to 3 (like), and indicators of whether the artwork depicts a face or body. For this project, the dataset was refined by:
-• Combining separate artist and title columns into a single “artist_title” column for unique identification.
-• Consolidating emotion annotations into three categories: positive, negative, and mixed/other.
-• Removing columns containing "ImageOnly" and "TitleOnly" data to focus on holistic emotional responses
-• Extracting face and body presence into separate binary columns (“Face”, “Body”, “None”)
-Feature Selection
+
+- Combining separate artist and title columns into a single “artist_title” column for unique identification.
+- Consolidating emotion annotations into three categories: positive, negative, and mixed/other.
+- Removing columns containing "ImageOnly" and "TitleOnly" data to focus on holistic emotional responses
+- Extracting face and body presence into separate binary columns (“Face”, “Body”, “None”)
+
+*Feature Selection*
 The predictive model utilizes the following features:
-• Art Period: Categorization of the artwork’s historical context.
-• Artist: The creator of the artwork.
-• Year: The year the artwork was created.
-• Medium: Distinguishing between paintings and other art forms.
-• Subject Focus: Indicating whether the artwork focuses on a face, body, or neither.
-Model Development
+- Art Period: Categorization of the artwork’s historical context.
+- Artist: The creator of the artwork.
+- Year: The year the artwork was created.
+- Medium: Distinguishing between paintings and other art forms.
+- Subject Focus: Indicating whether the artwork focuses on a face, body, or neither.
+*Model Development*
 A Random Forest classifier was developed to predict the emotional response category (positive, negative, mixed) based on the selected features. The dataset was split into training (80%) and testing (20%) sets, and the model was trained to predict emotional responses (positive, negative, mixed). Performance was assessed using accuracy, precision, recall, and F1-score
 ![image](https://github.com/user-attachments/assets/2ce63f70-d21c-41a7-a8ba-ca9be1341f7e)
 
