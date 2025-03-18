@@ -9,11 +9,6 @@ This project builds upon the WikiArt Emotions dataset, a collection of 4,105 art
 This research has broad implications, from improving art recommendation systems to advancing computational aesthetics and emotion recognition in creative works. By quantifying emotional responses to art, ArtEmotions offers a novel approach to analyzing the subjective experience of visual artworks through data-driven methodologies.
 
 
-
-
-
-
-
 <h1>Methods</h1> 
 
 *Data Collection and Cleaning*
@@ -37,7 +32,6 @@ The predictive model utilizes the following features:
 *Model Development*
 
 A Random Forest classifier was developed to predict the emotional response category (positive, negative, mixed) based on the selected features. The dataset was split into training (80%) and testing (20%) sets, and the model was trained to predict emotional responses (positive, negative, mixed). Performance was assessed using accuracy, precision, recall, and F1-score
-![image](https://github.com/user-attachments/assets/2ce63f70-d21c-41a7-a8ba-ca9be1341f7e)
 
 <h1>References</h1>
 <ol>
