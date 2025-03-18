@@ -36,6 +36,7 @@ A Random Forest classifier was developed to predict the emotional response categ
 <h1>Results</h1> 
 The Random Forest classifier achieved a 65.53% on the test set. The confusion matrix showed that the model performed best in identifying positive emotions, with the most misclassification occurring between negative and mixed emotions.
 
+
 <h1>Conclusion</h1> 
 ArtEmotions predicts the emotional response to artworks using a machine learning approach. The model’s accuracy suggests that artistic features such as period, medium, and subject matter significantly impact emotional perception. However, certain limitations exist, such as potential biases in the dataset and the subjective nature of emotional annotations.
 
@@ -51,4 +52,7 @@ Future enhancements to ArtEmotions could include:
 <h1>References</h1>
 <ol>
   <li>Mohammad, S. M., & Kiritchenko, S. (2018). WikiArt Emotions: An Annotated Dataset of Emotions Evoked by Art. In Proceedings of the 11th Edition of the Language Resources and Evaluation Conference (LREC-2018), Miyazaki, Japan. European Language Resources Association (ELRA).</li>
-  <li></li>
+  <li></li> 
+
+ <h1>Appendix</h1> 
+ Any additional stuffs that we want to in the paper but not in the main part. 
