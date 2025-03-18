@@ -41,9 +41,12 @@ ArtEmotions predicts the emotional response to artworks using a machine learning
 
 <h1>Future Work</h1> 
 Future enhancements to ArtEmotions could include:
-• Expanding Features: Incorporating additional features such as color schemes, brushstroke patterns, and thematic content.
-• Larger Dataset: Augmenting the dataset with more artworks to improve model generalization.
-• Real-Time Analysis: Developing applications that provide real-time predictions of emotional responses to new artworks.
+
+- Expanding Features: Incorporating additional features such as color schemes, brushstroke patterns, and thematic content.
+
+- Larger Dataset: Augmenting the dataset with more artworks to improve model generalization.
+  
+- Real-Time Analysis: Developing applications that provide real-time predictions of emotional responses to new artworks.
 
 <h1>References</h1>
 <ol>
