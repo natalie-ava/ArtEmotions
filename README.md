@@ -35,22 +35,33 @@ The predictive model utilizes the following features:
 A Random Forest classifier was developed to predict the emotional response category (positive, negative, mixed) based on the selected features. The dataset was split into training (80%) and testing (20%) sets, and the model was trained to predict emotional responses (positive, negative, mixed). Performance was assessed using accuracy, precision, recall, and F1-score
 
 <h1>Results</h1> 
-The Random Forest classifier achieved a 65.53% on the test set. The confusion matrix showed that the model performed best in identifying positive emotions, with the most misclassification occurring between negative and mixed emotions.
+The Random Forest classifier trained on our refined feature set achieved an overall accuracy of 65.53% on the test data. This model leveraged engineered features such as art style, category, year of creation, and subject emphasis (face/body) to predict the emotional response to an artwork as either positive, negative, or mixed. All categorical features were one-hot encoded or label-encoded to support model interpretability and computational performance.
 
+The classification report revealed that the model performed best in identifying positive emotions, showing both high precision and recall for this category. In contrast, the model struggled most with distinguishing between negative and mixed emotions, which is reflected in the confusion matrix by a noticeable overlap between these two classes. This misclassification may be attributed to the subjectivity of emotional annotation, as well as overlapping visual and thematic elements between artworks that evoke negative and mixed responses.
+
+Feature importance scores from the Random Forest model indicated that style, year, and the presence of human figures were among the most predictive variables. Notably, artworks classified under certain historical styles or containing identifiable facial/body elements were more likely to produce emotionally polarized responses, likely due to the psychological and cultural cues embedded in these compositions.
+
+Overall, these results support the idea that machine learning can meaningfully approximate emotional reactions to art based on non-visual metadata and thematic markers. However, the variability in performance across categories points to opportunities for further refinement.
 
 <h1>Conclusion</h1> 
-ArtEmotions predicts the emotional response to artworks using a machine learning approach. The model’s accuracy suggests that artistic features such as period, medium, and subject matter significantly impact emotional perception. However, certain limitations exist, such as potential biases in the dataset and the subjective nature of emotional annotations.
+The ArtEmotions project demonstrates the viability of using machine learning to predict emotional responses to visual artworks based on accessible metadata. By analyzing features such as art period, artist, year, subject matter, and artistic style, the model achieves a respectable predictive accuracy of 65.53%, with particularly strong performance in classifying positive emotional responses.
+
+These findings highlight that certain artistic characteristics—especially style, temporal context, and the presence of human figures—play a meaningful role in shaping viewers’ emotional interpretations. However, the model also reveals inherent challenges in modeling complex and subjective human emotions, particularly when distinguishing between negative and mixed reactions.
+
+This project offers a valuable foundation for emotion-aware systems in fields like digital curation, art recommendation, and interactive exhibits. Nonetheless, limitations such as dataset imbalance, lack of visual feature analysis (e.g., color or texture), and the ambiguity of emotional labels suggest avenues for further development. Future iterations could benefit from incorporating image-based features through computer vision, leveraging larger and more diverse datasets, and exploring more nuanced emotional taxonomies.
+
+ArtEmotions ultimately bridges the gap between computational models and human affective experience, providing both technical insight and creative inspiration for understanding how art makes us feel.
 
 <h1>Future Work</h1> 
 Future enhancements to ArtEmotions could include:
-• Expanding Features: Incorporating additional features such as color schemes, brushstroke patterns, and thematic content.
-• Larger Dataset: Augmenting the dataset with more artworks to improve model generalization.
-• Real-Time Analysis: Developing applications that provide real-time predictions of emotional responses to new artworks.
+
+- Expanding Features: Incorporating additional features such as color schemes, brushstroke patterns, and thematic content.
+- Larger Dataset: Augmenting the dataset with more artworks to improve model generalization.
+- Real-Time Analysis: Developing applications that provide real-time predictions of emotional responses to new artworks.
 
 <h1>References</h1>
 <ol>
   <li>Mohammad, S. M., & Kiritchenko, S. (2018). WikiArt Emotions: An Annotated Dataset of Emotions Evoked by Art. In Proceedings of the 11th Edition of the Language Resources and Evaluation Conference (LREC-2018), Miyazaki, Japan. European Language Resources Association (ELRA).</li>
-  <li></li> 
 
  <h1>Appendix</h1> 
- Any additional stuffs that we want to in the paper but not in the main part. 
+
