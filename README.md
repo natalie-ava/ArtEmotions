@@ -62,6 +62,18 @@ Future enhancements to ArtEmotions could include:
 <h1>References</h1>
 <ol>
   <li>Mohammad, S. M., & Kiritchenko, S. (2018). WikiArt Emotions: An Annotated Dataset of Emotions Evoked by Art. In Proceedings of the 11th Edition of the Language Resources and Evaluation Conference (LREC-2018), Miyazaki, Japan. European Language Resources Association (ELRA).</li>
+</ol>
 
  <h1>Appendix</h1> 
+ <h2>Reports</h2>
+ <ol>
+   <li> <a href="https://github.com/natalie-ava/ArtEmotions/blob/main/appendix_confusion_matrix.csv">Confusion matrix</a></li>
+   <li> <a href="https://github.com/natalie-ava/ArtEmotions/blob/main/appendix_classification_report.csv">Classification report</a></li>
+ </ol>
+ <h2>Graphs and Charts</h2>
+  <ol>
+   <li> <a href="https://github.com/natalie-ava/ArtEmotions/blob/main/average_rating_by_category.pdf">Average Viewer Rating by Artistic Category</a></li>
+   <li> <a href="https://github.com/natalie-ava/ArtEmotions/blob/main/avg_rating_vs_subject.pdf">Correlation Between Rating and Subject Focus</a></li>
+    <li> <a href="https://github.com/natalie-ava/ArtEmotions/blob/main/positive_emotion_scores.pdf">Distribution of Positive Emotion Scores Across Categories</a> </li>
+  </ol>
 
