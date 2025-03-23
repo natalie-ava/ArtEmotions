@@ -1,0 +1,4 @@
+,Pred_Positive,Pred_Negative,Pred_Other/Mixed
+True_Positive,405,33,76
+True_Negative,75,10,17
+True_Other/Mixed,70,12,123
