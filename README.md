@@ -67,13 +67,13 @@ Future enhancements to ArtEmotions could include:
  <h1>Appendix</h1> 
  <h2>Reports</h2>
  <ol>
-   <li> <a href="https://github.com/natalie-ava/ArtEmotions/blob/main/appendix_confusion_matrix.csv">Confusion matrix</a></li>
-   <li> <a href="https://github.com/natalie-ava/ArtEmotions/blob/main/appendix_classification_report.csv">Classification report</a></li>
+   <li> <a href="https://github.com/natalie-ava/ArtEmotions/blob/main/reports/appendix_confusion_matrix.csv">Confusion matrix</a></li>
+   <li> <a href="https://github.com/natalie-ava/ArtEmotions/blob/main/reports/appendix_classification_report.csv">Classification report</a></li>
  </ol>
  <h2>Graphs and Charts</h2>
   <ol>
-   <li> <a href="https://github.com/natalie-ava/ArtEmotions/blob/main/average_rating_by_category.pdf">Average Viewer Rating by Artistic Category</a></li>
-   <li> <a href="https://github.com/natalie-ava/ArtEmotions/blob/main/avg_rating_vs_subject.pdf">Correlation Between Rating and Subject Focus</a></li>
-    <li> <a href="https://github.com/natalie-ava/ArtEmotions/blob/main/positive_emotion_scores.pdf">Distribution of Positive Emotion Scores Across Categories</a> </li>
+   <li> <a href="https://github.com/natalie-ava/ArtEmotions/blob/main/graphs/average_rating_by_category.pdf">Average Viewer Rating by Artistic Category</a></li>
+   <li> <a href="https://github.com/natalie-ava/ArtEmotions/blob/main/graphs/avg_rating_vs_subject.pdf">Correlation Between Rating and Subject Focus</a></li>
+    <li> <a href="https://github.com/natalie-ava/ArtEmotions/blob/main/graphs/positive_emotion_scores.pdf">Distribution of Positive Emotion Scores Across Categories</a> </li>
   </ol>
 
