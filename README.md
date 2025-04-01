@@ -59,9 +59,12 @@ Future enhancements to ArtEmotions could include:
 - Larger Dataset: Augmenting the dataset with more artworks to improve model generalization.
 - Real-Time Analysis: Developing applications that provide real-time predictions of emotional responses to new artworks.
 
+<h1> Contributions </h1>
+
 <h1>References</h1>
 <ol>
   <li>Mohammad, S. M., & Kiritchenko, S. (2018). WikiArt Emotions: An Annotated Dataset of Emotions Evoked by Art. In Proceedings of the 11th Edition of the Language Resources and Evaluation Conference (LREC-2018), Miyazaki, Japan. European Language Resources Association (ELRA).</li>
+  <li> Liaw A, Wiener M (2002). “Classification and Regression by randomForest.” R News, 2(3), 18-22. https://CRAN.R-project.org/doc/Rnews/.</li>
 </ol>
 
  <h1>Appendix</h1> 
